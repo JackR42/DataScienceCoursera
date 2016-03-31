@@ -3,17 +3,26 @@
 ## Description
 
 To produce a tidy data set compliant with the specifications from the assignment, run the following R script:
+
 ..* run_analysis.R
 
 
 This script will do the following:
+
 ..* If the .zip file containing the dataset does not exist, it is downloaded from the provided URL; If the data folder does not exist, the file is unzipped
+
 ..* The activity and feature data is loaded from the data files
+
 ..* The Mean and Standard deviation columns are extracted while loading trainingset and testset
+
 ..* Activity and Subject data is loaded and merged
+
 ..* The training and test data sets are merged into a combined data set
+
 ..* The activity and subject columns are converted into factors
+
 ..* A tidy dataset is created with mean value of each variable per subject/activity pair
+
 ..* The tidy dataset is exported and written to output file tidy.txt.
 
 
