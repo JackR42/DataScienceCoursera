@@ -9,7 +9,7 @@ To produce a tidy data set compliant with the specifications from the assignment
 
 This script will do the following:
 
-..* If the .zip file containing the dataset does not exist, it is downloaded from the provided URL; If the data folder does not exist, the file is unzipped
+..* The .zip file is downloaded from the provided URL and unzipped to a data folder
 
 ..* The activity and feature data is loaded from the data files
 
