@@ -32,8 +32,10 @@ The tidy data will contain the following:
 
 ### Identifiers
 
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
+..* subject - The ID of the test subject
+
+..* activity - The type of activity performed when the corresponding measurements were taken
+
 
 ### Measurements
 
@@ -120,9 +122,9 @@ fBodyBodyGyroJerkMagMeanFreq
 
 ### Activity Labels
 
-WALKING (value 1)
-WALKING_UPSTAIRS (value 2)
-WALKING_DOWNSTAIRS (value 3)
-SITTING (value 4)
-STANDING (value 5)
-LAYING (value 6)
+..* WALKING (value 1)
+..* WALKING_UPSTAIRS (value 2)
+..* WALKING_DOWNSTAIRS (value 3)
+..* SITTING (value 4)
+..* STANDING (value 5)
+..* LAYING (value 6)
