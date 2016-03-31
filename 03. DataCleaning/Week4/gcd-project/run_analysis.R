@@ -1,4 +1,3 @@
-# setwd("C:/Users/Administrator/Git/DataScienceCoursera/03. DataCleaning/Week4/gcdp")
 # rm(list=ls()) ## Clear memory
 # cat("\014")   ## Ctrl-L - Clear screen
 # install.packages("reshape2")
@@ -30,7 +29,7 @@ activity_labels[,2] <- as.character(activity_labels[,2])
 features <- read.table("UCI HAR Dataset/features.txt")
 features[,2] <- as.character(features[,2])
 
-# Select only mean and standard deviation
+# Extract only mean and standard deviation
 extract <- grep(".*mean.*|.*std.*", features[,2])
 extract.names <- features[extract,2]
 extract.names = gsub('-mean', 'Mean', extract.names)
@@ -61,4 +60,6 @@ combinedData.melted <- melt(combinedData, id = c("subject", "activity"))
 combinedData.mean <- dcast(combinedData.melted, subject + activity ~ variable, mean)
 
 write.table(combinedData.mean, "tidy.txt", row.names = FALSE, quote = FALSE)
-# head(combinedData)
+
+# For testing the output file
+# read.table("tidy.txt", header = TRUE)
