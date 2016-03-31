@@ -1,1 +1,0 @@
-# Getting and Cleaning data - week 4 - Course Project
