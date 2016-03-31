@@ -200,14 +200,14 @@ The tidy data will contain the following:
 
 ### Activity Labels
 
-..* WALKING (value 1)
+..* 1 WALKING
 
-..* WALKING_UPSTAIRS (value 2)
+..* 2 WALKING_UPSTAIRS
 
-..* WALKING_DOWNSTAIRS (value 3)
+..* 3 WALKING_DOWNSTAIRS
 
-..* SITTING (value 4)
+..* 4 SITTING
 
-..* STANDING (value 5)
+..* 5 STANDING
 
-..* LAYING (value 6)
+..* 6 LAYING
